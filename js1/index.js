@@ -1,14 +1,14 @@
 // const arr = [5,6,8,3,2]  output = [25,216,512,9,8]
-// 
+//
 // const arr = [5, 6, 8, 3, 2];
 // let newArr = arr.map(x => {
-//     if (x % 2 == 0) { 
-//         return x * x * x; 
+//     if (x % 2 == 0) {
+//         return x * x * x;
 //     } else {
-//         return x * x; 
+//         return x * x;
 //     }
 // });
-// console.log(newArr); 
+// console.log(newArr);
 
 // const students = [
 //     {
@@ -42,6 +42,23 @@
 
 // let upto20 = students.filter(students => students.age < 21 && students.hobbies.includes("Gaming"));
 // console.log(upto20);
+
+
+// let arr = ['apple', 'been', 'pie', 'mangoes', 'been', 'pie'] // ['pie','been','apple','mangoes']
+// let arr2 = [] // [3,4,5,6]
+// let length = arr.map(x => x.length).sort()
+// for (i = 0; i < length.length; i++) {
+//     for (p = 0; p < arr.length; p++) {
+//         if (length[i] == arr[p].length)
+//             arr2.push(arr[p])
+//     }
+// }
+
+
+// let a = [...new Set(arr2)]
+
+// console.log(a)
+
 
 
 const students = [
@@ -93,8 +110,12 @@ const students = [
     { name: "Student 46", age: 22, major: "Computer Science", grades: [87, 85, 89], hobbies: ["Reading", "Gaming", "Photography"] },
 ]
 
-const gaming = students.filter(student => student.hobbies.includes("Gaming"));
-console.log(gaming);
-console.log(gaming.length);
+// const gaming = students.filter(student => student.hobbies.includes("Gaming"));
+// console.log(gaming);
+// console.log(gaming.length);
 
-
+// let chess260 = students.filter(student => {
+//     const greds260 = student.grades.reduce((a, c) => a + c, 0);
+//     return greds260 > 260 && student.hobbies.includes("Chess")
+// })
+// console.log(chess260);
