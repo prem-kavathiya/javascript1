@@ -93,8 +93,15 @@ const students = [
     { name: "Student 46", age: 22, major: "Computer Science", grades: [87, 85, 89], hobbies: ["Reading", "Gaming", "Photography"] },
 ]
 
-const gaming = students.filter(student => student.hobbies.includes("Gaming"));
-console.log(gaming);
-console.log(gaming.length);
+// const gaming = students.filter(student => student.hobbies.includes("Gaming"));
+// console.log(gaming);
+
+// const result = students.filter(x => {
+//     const totalGrades = x.grades.reduce((b,  a) => b + a, 0);
+//     return totalGrades >= 260 && x.hobbies.includes("Gaming");
+// });
+
+// console.log(result);
+
 
 
