@@ -137,11 +137,11 @@
 // // console.log(hh) 
 // console.log(hh.length)
 
-const gh = [90, 85, 72, 88, 95, 68, 100, 82];
-let cc = [];
-let hh = gh.sort((a, b) => b - a);
-let pp = hh[0]; 
-let kk = hh[hh.length - 1]; 
-cc.push(pp, kk);
+// const gh = [90, 85, 72, 88, 95, 68, 100, 82];
+// let cc = [];
+// let hh = gh.sort((a, b) => b - a);
+// let pp = hh[0]; 
+// let kk = hh[hh.length - 1]; 
+// cc.push(pp, kk);
 
-console.log(cc);
+// console.log(cc);
