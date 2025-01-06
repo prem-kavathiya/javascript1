@@ -119,3 +119,29 @@
 //     return greds260 > 260 && student.hobbies.includes("Chess")
 // })
 // console.log(chess260);
+
+
+// let arr = ['apple', 'been', 'pie', 'mangoes', 'been', 'pie']
+// let kk = arr.map(student =>student.length).sort()
+// let pp =[]
+// for(i=0; i<kk.length; i++){
+//     for(p=0; p<arr.length; p++){
+//         if(kk[i] == arr[p].length)
+//             pp.push(arr[p])
+        
+//     }
+// }
+// let newarr = [...new Set(pp)]
+// let ll = newarr.sort((a,b)=>b.length-a.length)
+// let hh = ll.slice(0,2)
+// // console.log(hh) 
+// console.log(hh.length)
+
+const gh = [90, 85, 72, 88, 95, 68, 100, 82];
+let cc = [];
+let hh = gh.sort((a, b) => b - a);
+let pp = hh[0]; 
+let kk = hh[hh.length - 1]; 
+cc.push(pp, kk);
+
+console.log(cc);
