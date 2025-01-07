@@ -128,68 +128,68 @@
 //     for(p=0; p<arr.length; p++){
 //         if(kk[i] == arr[p].length)
 //             pp.push(arr[p])
-        
 //     }
 // }
 // let newarr = [...new Set(pp)]
 // let ll = newarr.sort((a,b)=>b.length-a.length)
 // let hh = ll.slice(0,2)
-// // console.log(hh) 
+// // console.log(hh)
 // console.log(hh.length)
 
 // const gh = [90, 85, 72, 88, 95, 68, 100, 82];
 // let cc = [];
 // let hh = gh.sort((a, b) => b - a);
-// let pp = hh[0]; 
-// let kk = hh[hh.length - 1]; 
+// let pp = hh[0];
+// let kk = hh[hh.length - 1];
 // cc.push(pp, kk);
 
 // console.log(cc);
 
 
-{const nums = [7, 12, 5, 18, 23, 10, 8];
-let replaced = nums.map(num => (num % 2 !== 0 ? -1 : num));
-console.log(replaced);
-}
+// {const nums = [7, 12, 5, 18, 23, 10, 8];
+// let replaced = nums.map(num => (num % 2 !== 0 ? -1 : num));
+// console.log(replaced);
+// }
 
-{const array = [5, 18, 25, 10, 50, 32, 3, 40];
-let threshold = 20;
-let count = array.filter(num => num > threshold).length;
-console.log(count);
-}
+// {const array = [5, 18, 25, 10, 50, 32, 3, 40];
+// let threshold = 20;
+// let count = array.filter(num => num > threshold).length;
+// console.log(count);
+// }
 
-{const values = [18, 12, 18, 24, 30, 12, 8];
-let uniqueValues = [...new Set(values)].sort((a, b) => a - b);
-let smallest = uniqueValues[0];
-let largest = uniqueValues[uniqueValues.length - 1];
-console.log([smallest, largest]);}
-
-
-{const data = [8, 3, 45, 12, 29, 55];
-let sortedData = data.sort((a, b) => a - b);
-let product = sortedData[0] * sortedData[sortedData.length - 1];
-console.log(product);}
+// {const values = [18, 12, 18, 24, 30, 12, 8];
+// let uniqueValues = [...new Set(values)].sort((a, b) => a - b);
+// let smallest = uniqueValues[0];
+// let largest = uniqueValues[uniqueValues.length - 1];
+// console.log([smallest, largest]);}
 
 
-{
-const arr = [10, 15, 22, 9, 31, 18, 44, 27];
-let evens = arr.filter(num => num % 2 === 0);
-let odds = arr.filter(num => num % 2 !== 0);
-console.log({ evens, odds });
-}
+// {const data = [8, 3, 45, 12, 29, 55];
+// let sortedData = data.sort((a, b) => a - b);
+// let product = sortedData[0] * sortedData[sortedData.length - 1];
+// console.log(product);}
 
 
-{const numbers = [25, 10, 47, 83, 12, 39];
-let sorted = numbers.sort((a, b) => a - b);
-let smallest = sorted[0];
-let largest = sorted[sorted.length - 1];
-let sum = smallest + largest;
-console.log(sum);}
+// {
+// const arr = [10, 15, 22, 9, 31, 18, 44, 27];
+// let evens = arr.filter(num => num % 2 === 0);
+// let odds = arr.filter(num => num % 2 !== 0);
+// console.log({ evens, odds });
+// }
 
 
-{const nums = [15, 42, 7, 19, 88, 30, 5, 60];
-let sortedNums = nums.sort((a, b) => b - a);
-let secondLargest = sortedNums[1];
-let secondSmallest = sortedNums[sortedNums.length - 2];
-console.log([secondLargest, secondSmallest]);
-}
+// {const numbers = [25, 10, 47, 83, 12, 39];
+// let sorted = numbers.sort((a, b) => a - b);
+// let smallest = sorted[0];
+// let largest = sorted[sorted.length - 1];
+// let sum = smallest + largest;
+// console.log(sum);}
+
+
+// {
+// const nums = [15, 42, 7, 19, 88, 30, 5, 60];
+// let sortedNums = nums.sort((a, b) => b - a);
+// let secondLargest = sortedNums[1];
+// let secondSmallest = sortedNums[sortedNums.length - 2];
+// console.log([secondLargest, secondSmallest]);
+// }
