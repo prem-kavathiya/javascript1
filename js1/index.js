@@ -186,10 +186,18 @@
 // console.log(sum);}
 
 
-// {
-// const nums = [15, 42, 7, 19, 88, 30, 5, 60];
+// {const nums = [15, 42, 7, 19, 88, 30, 5, 60];
 // let sortedNums = nums.sort((a, b) => b - a);
 // let secondLargest = sortedNums[1];
 // let secondSmallest = sortedNums[sortedNums.length - 2];
 // console.log([secondLargest, secondSmallest]);
 // }
+{
+let users = prompt("enter the number ")
+if(users % 5 == 0){
+    document.getElementById("demo").innerHTML =("the number is multyple by 5");
+}else{
+    document.getElementById("demont").innerHTML =("the number is not multyple by 5");
+}
+}
+
