@@ -192,12 +192,12 @@
 // let secondSmallest = sortedNums[sortedNums.length - 2];
 // console.log([secondLargest, secondSmallest]);
 // }
-{
-let users = prompt("enter the number ")
-if(users % 5 == 0){
-    document.getElementById("demo").innerHTML =("the number is multyple by 5");
-}else{
-    document.getElementById("demont").innerHTML =("the number is not multyple by 5");
-}
-}
+// {
+// let users = prompt("enter the number ")
+// if(users % 5 == 0){
+//     document.getElementById("demo").innerHTML =("the number is multiple by 5");
+// }else{
+//     document.getElementById("demont").innerHTML =("the number is not multiple by 5");
+// }
+// }
 
