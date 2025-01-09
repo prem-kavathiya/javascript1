@@ -192,3 +192,33 @@
 // let secondSmallest = sortedNums[sortedNums.length - 2];
 // console.log([secondLargest, secondSmallest]);
 // }
+// {
+//     let gf = prompt("enter the any number")
+//     if(gf % 2 === 0 ){
+//         document.getElementById("demo").innerHTML = ("the number is even number")
+//     }
+//      else if ( gf % 1 === 0 ){
+//         document.getElementById("demonot").innerHTML = ("the number is odd number ")
+//     }
+//     else{
+//         document.getElementById("demonot1").innerHTML = ("the number is not valid ")
+//     }
+// }
+// console.log(document.getElementById("xgf"))
+// document.getElementById("xgf").onclick=changeColor
+
+// document.getElementById("xgf").style.color = "purple"; 
+// function changeColor() {
+//     return false;
+// }  
+
+// document.getElementById("xgf").onclick = (document.getElementById("xgf").style.color = "purple");
+
+document.getElementsByClassName("ok").onclick = submit
+function submit() {
+    const h1El = document.getElementsByClassName('ok')[0]
+    h1El.innerText = 'prem'
+    h1El.style.color = "red"
+    // document.getElementsByClassName("ok").style.color = "purple";
+
+}
