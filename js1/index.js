@@ -214,11 +214,31 @@
 
 // document.getElementById("xgf").onclick = (document.getElementById("xgf").style.color = "purple");
 
-document.getElementsByClassName("ok").onclick = submit
-function submit() {
-    const h1El = document.getElementsByClassName('ok')[0]
-    h1El.innerText = 'prem'
-    h1El.style.color = "red"
-    // document.getElementsByClassName("ok").style.color = "purple";
+// document.getElementById("xgf").onclick = submit
+// function submit() {
+//     const h1El = document.getElementById('xgf')
+//     h1El.innerText = 'pre'
+//     document.getElementById("xgf").style.color = "purple";
 
-}
+// }
+// const firstElement = document.getElementsByClassName("ok")[0];
+//     if (firstElement) {
+//         firstElement.addEventListener("click", submit); 
+
+//     }
+// let gh = prompt("enter name")
+// function submit() {
+//     const h1El = document.getElementsByClassName('ok')[0]
+//     h1El.innerText = gh
+//     h1El.style.color = "red"
+// }
+
+// const arr = [3, 7, 1, 5, 4, 1, 9]
+// const checkLowest = (data) => {
+// data.map(x => {
+
+// })
+// }
+// console.log(checkLowest(arr));
+
+alert("hii loda")
