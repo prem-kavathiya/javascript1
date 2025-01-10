@@ -240,5 +240,3 @@
 // })
 // }
 // console.log(checkLowest(arr));
-
-alert("hii loda")
