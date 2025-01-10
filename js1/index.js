@@ -230,13 +230,33 @@
 // function submit() {
 //     const h1El = document.getElementsByClassName('ok')[0]
 //     h1El.innerText = gh
-//     h1El.style.color = "red"
+//     h1El.style.color = "blue"
 // }
 
-// const arr = [3, 7, 1, 5, 4, 1, 9]
-// const checkLowest = (data) => {
-// data.map(x => {
+const arr = [3, 7, 1, 5, 4, 1, 9];
 
-// })
-// }
-// console.log(checkLowest(arr));
+const removeFirstLowest = (data) => {
+    let lowest = data[0];
+    let lowestIndex = 0;
+  
+    for ( i = 1; i < data.length; i++) {
+      if (data[i] < lowest) {
+        lowest = data[i];
+        lowestIndex = i;
+      }
+    }
+  
+    data.splice(lowestIndex, 1);
+    return data;
+  };
+  
+  console.log(removeFirstLowest(arr));
+  
+function test(e){
+    document.getElementById("input").innerHTML = e.target.value
+    console.log("complet",e)
+}
+
+{
+    console.log(ok1)
+}
