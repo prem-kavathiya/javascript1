@@ -233,25 +233,29 @@
 //     h1El.style.color = "blue"
 // }
 
-const arr = [3, 7, 1, 5, 4, 1, 9];
+// const arr = [3, 7, 1, 5, 4, 1, 9];
 
-const removeFirstLowest = (data) => {
-    let lowest = data[0];
-    let lowestIndex = 0;
+// const removeFirstLowest = (data) => {
+//     let lowest = data[0];
+//     let lowestIndex = 0;
   
-    for ( i = 1; i < data.length; i++) {
-      if (data[i] < lowest) {
-        lowest = data[i];
-        lowestIndex = i;
-      }
-    }
+//     for ( i = 1; i < data.length; i++) {
+//       if (data[i] < lowest) {
+//         lowest = data[i];
+//         lowestIndex = i;
+//       }
+//     }
   
-    data.splice(lowestIndex, 1);
-    return data;
-  };
+//     data.splice(lowestIndex, 1);
+//     return data;
+//   };
   
-  console.log(removeFirstLowest(arr));
+//   console.log(removeFirstLowest(arr));
   
+{
+  let ok1 = prompt("enter your name")
+  document.getElementById("promt").innerHTML = ok1
+  }
 function test(e){
     document.getElementById("input").innerHTML = e.target.value
     console.log("complet",e)
